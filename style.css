@@ -219,6 +219,7 @@ body {
     height: 82%;
     display: flex;
     align-items: flex-end;
+ 
 }
 
 .leftSideNavbar,
@@ -264,7 +265,107 @@ body {
     background-color: #04aa6d;
 }
 
-.middleContentContainer {
-    width: 66%;
+.middleAndRightSubNavBarContainer{
+    width: 83.5%;
     height: 100%;
+    display: flex;
+    overflow-y: scroll;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.middleContentContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.middleContentTopContainer{
+    width: 100%;
+    height: 27%;
+    /* border: 2px solid green; */
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middleContentTopContainerBannerContainer{
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 100%;
+}
+
+.middleContentTopContainerBannerContainer img{
+    height: 100%;
+    width: 100%;
+}
+
+.middleContentBottomContainer{
+    /* border: 2px solid red; */
+    width: 100%;
+
+
+}
+
+.middleContentBottomContainerMainContainerHeader{
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 1rem 2rem ;
+}
+
+.middleContentBottomContainer h1{
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.middleContentBottomContainerMainContentButtonConatiner{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.middleContentBottomContainerMainContentButtonConatiner .prevButton,
+.middleContentBottomContainerMainContentButtonConatiner .nextButton{
+    padding: 1rem 2rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #04aa6d;
+}
+
+.middleContentBottomContainerMainContainerMainContent{
+    padding: 3rem 2rem;
+    background-color: #d9eee1;
+}
+
+.middleContentBottomContainerMainContainerMainContent p{
+    padding-top: 1rem;
+}
+
+.middleContentBottomContainerMainContainerMainContent h4{
+    margin-top: 2.5rem;
+    padding: 1rem 2rem;
+    background-color: #04aa6d;
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    
+}
+
+.middleContentBottomContainerMainContainerMainContent h4 span{
+    font-size: .5rem;
+    color: white;
+}
+
+.middleContentBottomContainerMainContainerMainContent h5{
+    margin-top: 2.5rem;
+    padding: 1rem 2rem;
+    background-color: #282a35;
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
 }
