@@ -119,7 +119,7 @@ body {
     align-items: center;
 }
 
-.mainNavbarRightSectionMenuItemContainer{
+.mainNavbarRightSectionMenuItemContainer {
     padding: .9rem 16px;
     border-radius: 50px;
     font-weight: 520;
@@ -129,20 +129,20 @@ body {
     align-items: center;
 }
 
-.mainNavbarRightSectionMenuItem1Container{
+.mainNavbarRightSectionMenuItem1Container {
     background-color: #282a35;
     color: white;
 }
 
-.mainNavbarRightSectionMenuItem2Container{
+.mainNavbarRightSectionMenuItem2Container {
     background-color: #ffc0c7;
 }
 
-.mainNavbarRightSectionMenuItem3Container{
+.mainNavbarRightSectionMenuItem3Container {
     background-color: #fff4a3;
 }
 
-.mainNavbarRightSectionMenuItem4Container{
+.mainNavbarRightSectionMenuItem4Container {
     background-color: #059862;
     color: white;
 }
@@ -155,12 +155,12 @@ body {
     justify-content: space-between;
 }
 
-.subNavbarLeftSection{
+.subNavbarLeftSection {
     width: 80%;
 }
 
 .subNavbarLeftSectionMenuItemContainer,
-.subNavbarRightSectionMenuItemContainer{
+.subNavbarRightSectionMenuItemContainer {
     display: flex;
     color: white;
     list-style: none;
@@ -168,7 +168,7 @@ body {
     height: 100%;
 }
 
-.subNavbarLeftSectionMenuItem{
+.subNavbarLeftSectionMenuItem {
     padding: 0 .9rem;
     display: flex;
     justify-content: center;
@@ -176,30 +176,30 @@ body {
     font-weight: 550;
 }
 
-.subNavbarLeftSectionMenuItem:hover{
+.subNavbarLeftSectionMenuItem:hover {
     background-color: #000000;
     cursor: pointer;
 }
 
-.subNavbarLeftSectionActiveMenuItem{
+.subNavbarLeftSectionActiveMenuItem {
     background-color: #04aa6d;
 }
 
-.subNavbarLeftSectionActiveMenuItem:hover{
+.subNavbarLeftSectionActiveMenuItem:hover {
     background-color: #04aa6d;
 }
 
-.subNavbarRightSection{
-    width: 15%;    
+.subNavbarRightSection {
+    width: 15%;
 }
 
-.subNavbarRightSectionMenuItemContainer{
+.subNavbarRightSectionMenuItemContainer {
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
 
-.subNavbarRightSectionMenuItem{
+.subNavbarRightSectionMenuItem {
     font-size: 1.3rem;
     padding: 0 1.4rem;
     height: 100%;
@@ -208,7 +208,7 @@ body {
     align-items: center;
 }
 
-.subNavbarRightSectionMenuItem:hover{
+.subNavbarRightSectionMenuItem:hover {
     background-color: #000000;
     cursor: pointer;
 
@@ -219,7 +219,7 @@ body {
     height: 82%;
     display: flex;
     align-items: flex-end;
- 
+
 }
 
 .leftSideNavbar,
@@ -232,40 +232,40 @@ body {
     background-color: #e7e9eb;
 }
 
-.leftSideNavbarMenuItemsContainer{
+.leftSideNavbarMenuItemsContainer {
     width: 100%;
     height: 100%;
     overflow-y: scroll;
 }
 
-.leftSideNavbarMenuItems{
+.leftSideNavbarMenuItems {
     padding: .4rem 1rem;
 }
 
-.leftSideNavbarMenuItems:hover{
+.leftSideNavbarMenuItems:hover {
     background-color: #cccccc;
     cursor: pointer;
 }
 
-.leftSideNavbarMenuItemsHeading{
+.leftSideNavbarMenuItemsHeading {
     font-size: 1.3rem;
     padding: .7rem 1rem;
 }
 
-.leftSideNavbarMenuItemsHeading:hover{
+.leftSideNavbarMenuItemsHeading:hover {
     background-color: transparent;
 }
 
-.leftSideNavbarActiveMenuItems{
+.leftSideNavbarActiveMenuItems {
     background-color: #04aa6d;
     color: white;
 }
 
-.leftSideNavbarActiveMenuItems:hover{
+.leftSideNavbarActiveMenuItems:hover {
     background-color: #04aa6d;
 }
 
-.middleAndRightSubNavBarContainer{
+.middleAndRightSubNavBarContainer {
     width: 83.5%;
     height: 100%;
     display: flex;
@@ -280,7 +280,7 @@ body {
     height: 100%;
 }
 
-.middleContentTopContainer{
+.middleContentTopContainer {
     width: 100%;
     height: 27%;
     /* border: 2px solid green; */
@@ -290,36 +290,36 @@ body {
     align-items: center;
 }
 
-.middleContentTopContainerBannerContainer{
+.middleContentTopContainerBannerContainer {
     /* border: 2px solid blue; */
     height: 100%;
     width: 100%;
 }
 
-.middleContentTopContainerBannerContainer img{
+.middleContentTopContainerBannerContainer img {
     height: 100%;
     width: 100%;
 }
 
-.middleContentBottomContainer{
+.middleContentBottomContainer {
     /* border: 2px solid red; */
     width: 100%;
 
 
 }
 
-.middleContentBottomContainerMainContainerHeader{
+.middleContentBottomContainerMainContainerHeader {
     /* border: 2px solid red; */
     width: 100%;
-    padding: 1rem 2rem ;
+    padding: 1rem 2rem;
 }
 
-.middleContentBottomContainer h1{
+.middleContentBottomContainer h1 {
     font-weight: 500;
     font-size: 2.5rem;
 }
 
-.middleContentBottomContainerMainContentButtonConatiner{
+.middleContentBottomContainerMainContentButtonConatiner {
     /* border: 2px solid green; */
     display: flex;
     justify-content: space-between;
@@ -327,7 +327,7 @@ body {
 }
 
 .middleContentBottomContainerMainContentButtonConatiner .prevButton,
-.middleContentBottomContainerMainContentButtonConatiner .nextButton{
+.middleContentBottomContainerMainContentButtonConatiner .nextButton {
     padding: 1rem 2rem;
     color: white;
     font-weight: 600;
@@ -335,16 +335,16 @@ body {
     background-color: #04aa6d;
 }
 
-.middleContentBottomContainerMainContainerMainContent{
+.middleContentBottomContainerMainContainerMainContent {
     padding: 3rem 2rem;
     background-color: #d9eee1;
 }
 
-.middleContentBottomContainerMainContainerMainContent p{
+.middleContentBottomContainerMainContainerMainContent p {
     padding-top: 1rem;
 }
 
-.middleContentBottomContainerMainContainerMainContent h4{
+.middleContentBottomContainerMainContainerMainContent h4 {
     margin-top: 2.5rem;
     padding: 1rem 2rem;
     background-color: #04aa6d;
@@ -352,15 +352,15 @@ body {
     border-radius: 5px;
     color: white;
     font-size: 1rem;
-    
+
 }
 
-.middleContentBottomContainerMainContainerMainContent h4 span{
+.middleContentBottomContainerMainContainerMainContent h4 span {
     font-size: .5rem;
     color: white;
 }
 
-.middleContentBottomContainerMainContainerMainContent h5{
+.middleContentBottomContainerMainContainerMainContent h5 {
     margin-top: 2.5rem;
     padding: 1rem 2rem;
     background-color: #282a35;
@@ -368,4 +368,74 @@ body {
     border-radius: 5px;
     color: white;
     font-size: 1rem;
+}
+
+.hamburgerIcon {
+    display: none;
+
+}
+
+@media screen and (max-width: 768px) {
+    .mainNavbarRightSectionMenuItemContainer:not(:last-child) {
+        display: none;
+    }
+
+    .subNavbarLeftSectionMenuItem:not(:first-child) {
+        display: none;
+    }
+
+    .subNavbarRightSectionMenuItem {
+        padding: 0;
+    }
+
+    .hamburgerIcon {
+        display: block;
+    }
+
+    .leftSideNavbar {
+        display: none;
+    }
+
+    .hamburgerIcon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 550;
+        padding: 0 0.9rem;
+    }
+
+    .responsiveleftSideNavbar {
+        position: absolute;
+        top: 18vh;
+        width: 100vw;
+        display: block;
+    }
+
+    .mainBodyContainer {
+        width: 100%;
+    }
+
+    .middleAndRightSubNavBarContainer {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .mainNavbarLeftSectionMenuItemContainer:not(:last-child) {
+        display: none;
+    }
+
+    .mainNavbarLeftSection {
+        width: 70%;
+    }
+
+    .mainNavbarLeftSectionMenuContainer {
+        width: 100%;
+    }
+
+    .responsivemainNavbarLeftSectionMenuContainer .mainNavbarLeftSectionMenuItemContainer {
+
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
 }

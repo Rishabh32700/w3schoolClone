@@ -27,7 +27,7 @@
                         <div class="mainNavbarLeftSectionLogoContainer">
                             <img src="./w3logo.png" alt="">
                         </div>
-                        <div class="mainNavbarLeftSectionMenuContainer">
+                        <div id="mainNavbarLeftSectionMenuContainer" class="mainNavbarLeftSectionMenuContainer">
                             <div class="mainNavbarLeftSectionMenuItemContainer mainNavbarLeftSectionMenuItem1Container">
                                 <div class="dropdown">
                                     <button class="dropbtn">Tutorials</button>
@@ -63,6 +63,7 @@
                                     <button class="dropbtn">Videos</button>
                                 </div>
                             </div>
+                            <a class="hamburgerIcon" onclick="mainNavbarToggelingFunction()">&#9776;</a>
                         </div>
                     </div>
                     <div class="mainNavbarRightSection">
@@ -121,6 +122,7 @@
                             <li class="subNavbarLeftSectionMenuItem11 subNavbarLeftSectionMenuItem">
                                 C
                             </li>
+                            <a class="hamburgerIcon" onclick="subNavbarToggelingFunction()">&#9776;</a>
                         </ul>
                     </div>
                     <div class="subNavbarRightSection">
@@ -140,7 +142,7 @@
             </div>
             <div class="mainBodyContainer">
                 <!--yellow container-->
-                <div class="leftSideNavbar">
+                <div id="leftSideNavbar" class="leftSideNavbar">
                     <!--lightGrey(left wala) container-->
                     <ul class="leftSideNavbarMenuItemsContainer">
                         <p class="leftSideNavbarMenuItems leftSideNavbarMenuItemsHeading">
@@ -261,11 +263,11 @@
                                     <p>HTML is the standard markup language for Web pages.</p>
                                     <p>With HTML you can create your own Website.</p>
                                     <p>HTML is easy to learn - You will enjoy it!</p>
-    
+
                                     <h4>
                                         Study our free study Material <span>>></span>
                                     </h4>
-<br>
+                                    <br>
                                     <h5>
                                         Watch our Video Tutorials
                                     </h5>
@@ -275,14 +277,35 @@
                     </div>
                     <div class="rightSideNavbar">
                         <!--lightGrey(right wala) container-->
-    
+
                     </div>
 
                 </div>
             </div>
         </div>
     </div>
-    <script src="index.js"></script>
+    <script>
+        function subNavbarToggelingFunction() {
+            var x = document.getElementById("leftSideNavbar")
+
+            if(x.className === "leftSideNavbar"){
+                x.className += " responsiveleftSideNavbar"
+            }else{
+                x.className = "leftSideNavbar"
+            }
+        }
+
+        function mainNavbarToggelingFunction() {
+            var y = document.getElementById("mainNavbarLeftSectionMenuContainer")
+
+
+            if(y.className === "mainNavbarLeftSectionMenuContainer"){
+                y.className += " responsivemainNavbarLeftSectionMenuContainer"
+            }else{
+                y.className = "mainNavbarLeftSectionMenuContainer"
+            }
+        }
+    </script>
 </body>
 
 </html>
